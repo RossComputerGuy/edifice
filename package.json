@@ -1,0 +1,30 @@
+{
+  "name": "edifice",
+  "version": "1.0.0",
+  "description": "A modern build system inspired by CMake using Node.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretest": "eslint --ignore-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RossComputerGuy/edifice.git"
+  },
+  "keywords": [
+    "builder",
+    "cmake"
+  ],
+  "author": "TheComputerGuy",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/RossComputerGuy/edifice/issues"
+  },
+  "homepage": "https://github.com/RossComputerGuy/edifice#readme",
+  "devDependencies": {
+    "eslint": "^6.7.1"
+  },
+  "dependencies": {
+    "dependency-graph": "^0.8.0"
+  }
+}
